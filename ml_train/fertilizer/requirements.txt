@@ -1,0 +1,6 @@
+# Fertilizer recommendation pipeline (XGBoost)
+xgboost==3.2.0
+scikit-learn==1.9.0
+pandas==2.2.2
+pyarrow==17.0.0          # parquet read/write for cached cleaned data
+joblib==1.5.3            # save/load the trained model bundle

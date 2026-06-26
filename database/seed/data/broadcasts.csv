@@ -1,0 +1,6 @@
+title,category,description,region_name,severity,event_date
+Flash Flood Warning,flood,Heavy upstream rainfall may cause flash floods along low-lying paddy fields. Move stored grain and livestock to higher ground.,Sylhet,high,2026-06-26
+Cyclone Approaching Coast,cyclone,A tropical cyclone is forecast to make landfall within 48 hours. Secure greenhouses and harvest mature crops early where possible.,Barishal,critical,2026-06-25
+Heavy Rain Spell,heavy_rain,Three days of continuous heavy rain expected. Delay fertilizer application and ensure field drainage is clear.,Chattogram,medium,2026-06-24
+Brown Planthopper Outbreak,pest_outbreak,Brown planthopper population rising sharply in rice fields. Scout daily and avoid excessive nitrogen fertilizer.,Rajshahi,high,2026-06-23
+Late Blight Disease Alert,disease_outbreak,Cool humid conditions are favourable for potato/tomato late blight. Apply preventive fungicide and remove infected plants.,,medium,2026-06-22

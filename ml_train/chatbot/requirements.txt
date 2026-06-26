@@ -1,0 +1,9 @@
+# ML pipeline for the agriculture chatbot (FLAN-T5 fine-tuning)
+transformers==4.44.2
+datasets==2.21.0
+torch==2.6.0
+pandas==2.2.2
+pyarrow==17.0.0          # parquet read/write for cached splits
+sentencepiece==0.2.0     # required by the T5 tokenizer
+accelerate==0.34.2       # used by the HF Trainer
+peft==0.13.2             # LoRA adapters for memory-efficient fine-tuning

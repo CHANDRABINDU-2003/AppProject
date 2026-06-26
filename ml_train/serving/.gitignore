@@ -1,0 +1,26 @@
+# ── Datasets: NEVER commit these (too large for git) ──
+datasets/**
+!datasets/**/.gitkeep
+!datasets/README.md
+
+# ── Trained model weights (large binaries) ──
+ml/**/weights/*
+!ml/**/weights/.gitkeep
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pkl
+
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# ── Firebase service-account key (SECRET) ──
+firebase-admin-key.json
+serviceAccountKey.json

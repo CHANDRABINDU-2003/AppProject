@@ -1,0 +1,11 @@
+name,description,season,water_requirement
+Rice,Staple cereal grown in flooded paddies; main carbohydrate crop across South Asia.,Kharif (monsoon),High — needs standing water through most of the growth cycle
+Wheat,Cool-season cereal grown for grain and flour.,Rabi (winter),Medium — 4 to 6 irrigations across the season
+Maize,"Versatile cereal used for food, feed and starch.",Kharif and Rabi,Medium — sensitive to water stress at tasselling
+Potato,Tuber crop grown in cool weather for its starchy roots.,Rabi (winter),"Medium — keep soil evenly moist, avoid waterlogging"
+Tomato,Warm-season fruiting vegetable rich in vitamins.,Rabi and summer,"Medium — regular watering, more at flowering and fruiting"
+Cabbage,Cool-season leafy vegetable forming a compact head.,Rabi (winter),Medium — frequent light irrigation for steady head growth
+Carrot,Cool-season root vegetable grown for its sweet taproot.,Rabi (winter),Medium — even moisture prevents cracked or forked roots
+Beans,Legume that fixes nitrogen and yields protein-rich pods.,Kharif and Rabi,Low to medium — avoid waterlogging which causes root rot
+Cassava,Drought-tolerant tropical tuber and major calorie source.,Year-round in the tropics,Low — very drought tolerant once established
+Banana,Perennial tropical fruit grown from suckers.,Year-round in the tropics,"High — needs steady moisture, very sensitive to drought"

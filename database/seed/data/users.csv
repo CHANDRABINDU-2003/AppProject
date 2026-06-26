@@ -1,0 +1,21 @@
+name,email,password,role,region_id
+Abdul Karim,farmer1@agripulse.com,Pass1234,farmer,1
+Rahima Begum,farmer2@agripulse.com,Pass1234,farmer,2
+Jashim Uddin,farmer3@agripulse.com,Pass1234,farmer,3
+Shilpi Akter,farmer4@agripulse.com,Pass1234,farmer,4
+Mokbul Hossain,farmer5@agripulse.com,Pass1234,farmer,5
+Nasrin Sultana,farmer6@agripulse.com,Pass1234,farmer,6
+Babul Mia,farmer7@agripulse.com,Pass1234,farmer,7
+Fatema Khatun,farmer8@agripulse.com,Pass1234,farmer,8
+GreenAgro Seller,seller1@agripulse.com,Pass1234,seller,1
+Dhaka Agro Mart,seller_dhaka@agripulse.com,Pass1234,seller,1
+Coastal Agri Supply,seller_ctg@agripulse.com,Pass1234,seller,2
+KrishiBazar Seller,seller2@agripulse.com,Pass1234,seller,3
+Padma Seed House,seller_raj@agripulse.com,Pass1234,seller,3
+Sundarban Seeds,seller_khulna@agripulse.com,Pass1234,seller,4
+Barishal Crop Care,seller_barishal@agripulse.com,Pass1234,seller,5
+SeedHub Seller,seller3@agripulse.com,Pass1234,seller,6
+Surma Agro Center,seller_sylhet@agripulse.com,Pass1234,seller,6
+Rangpur Agro Center,seller_rangpur@agripulse.com,Pass1234,seller,7
+Brahmaputra Agri,seller_mymensingh@agripulse.com,Pass1234,seller,8
+System Analyst,udita@gmail.com,2102006,analyst,

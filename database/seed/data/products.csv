@@ -1,0 +1,32 @@
+seller_email,name,type,price,stock,region_id
+seller1@agripulse.com,Urea 50kg,fertilizer,1100,200,1
+seller1@agripulse.com,DAP 50kg,fertilizer,1600,150,1
+seller1@agripulse.com,Neem Pesticide 1L,pesticide,450,80,1
+seller_dhaka@agripulse.com,TSP 50kg,fertilizer,1450,130,1
+seller_dhaka@agripulse.com,BRRI Dhan89 Rice Seed 5kg,seed,420,180,1
+seller_dhaka@agripulse.com,Hand Weeder,tool,350,75,1
+seller_ctg@agripulse.com,Gypsum 25kg,fertilizer,700,110,2
+seller_ctg@agripulse.com,Copper Fungicide 500ml,pesticide,560,70,2
+seller_ctg@agripulse.com,Drip Irrigation Kit,tool,3500,25,2
+seller2@agripulse.com,MOP 50kg,fertilizer,1350,120,3
+seller2@agripulse.com,Hybrid Maize Seed 1kg,seed,320,300,3
+seller2@agripulse.com,Knapsack Sprayer,tool,2200,40,3
+seller_raj@agripulse.com,Mango Booster Fertilizer 10kg,fertilizer,950,90,3
+seller_raj@agripulse.com,BARI Wheat Seed 10kg,seed,640,150,3
+seller_khulna@agripulse.com,Salt-Tolerant Rice Seed 5kg,seed,480,160,4
+seller_khulna@agripulse.com,Zinc Sulphate 5kg,fertilizer,520,100,4
+seller_khulna@agripulse.com,Bio Pesticide 1L,pesticide,610,65,4
+seller_barishal@agripulse.com,Organic Compost 25kg,fertilizer,600,120,5
+seller_barishal@agripulse.com,Watermelon Seed 250g,seed,390,140,5
+seller_barishal@agripulse.com,Water Pump 1HP,tool,8500,15,5
+seller3@agripulse.com,BARI Tomato Seed 100g,seed,180,250,6
+seller3@agripulse.com,Organic Compost 25kg,fertilizer,600,90,6
+seller3@agripulse.com,Fungicide 500ml,pesticide,520,60,6
+seller_sylhet@agripulse.com,Tea Garden Fertilizer 20kg,fertilizer,1750,80,6
+seller_sylhet@agripulse.com,Leaf Spot Fungicide 500ml,pesticide,540,70,6
+seller_rangpur@agripulse.com,Potato Seed Tuber 10kg,seed,720,200,7
+seller_rangpur@agripulse.com,NPK 50kg,fertilizer,1500,140,7
+seller_rangpur@agripulse.com,Late Blight Fungicide 1L,pesticide,680,85,7
+seller_mymensingh@agripulse.com,Vermicompost 25kg,fertilizer,650,110,8
+seller_mymensingh@agripulse.com,BRRI Dhan29 Rice Seed 5kg,seed,440,170,8
+seller_mymensingh@agripulse.com,Sprayer Nozzle Set,tool,280,90,8

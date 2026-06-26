@@ -1,0 +1,7 @@
+farmer_email,product_name,quantity,status
+farmer1@agripulse.com,Urea 50kg,4,delivered
+farmer1@agripulse.com,Neem Pesticide 1L,2,confirmed
+farmer2@agripulse.com,BARI Tomato Seed 100g,3,shipped
+farmer3@agripulse.com,Hybrid Maize Seed 1kg,5,pending
+farmer4@agripulse.com,MOP 50kg,2,delivered
+farmer6@agripulse.com,Fungicide 500ml,1,confirmed

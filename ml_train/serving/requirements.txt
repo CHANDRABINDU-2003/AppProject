@@ -1,0 +1,24 @@
+# ── AgriPulse AI service (the "ML Layer") ──
+# Serves the 3 trained models: plant-disease CNN, fertilizer XGBoost, FLAN-T5 chatbot.
+# NOTE: torch has no Python 3.14 wheels yet — use a Python 3.10–3.12 venv.
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9          # image file uploads
+pydantic==2.9.2
+
+# ── Plant-disease image model (PyTorch / torchvision) ──
+torch==2.6.0
+torchvision==0.21.0
+pillow==10.4.0
+
+# ── Fertilizer model (XGBoost bundle saved with joblib) ──
+xgboost==2.1.1
+scikit-learn==1.5.2
+joblib==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Chatbot (FLAN-T5 via HuggingFace transformers) ──
+transformers==4.44.2
+sentencepiece==0.2.0             # required by the T5 tokenizer

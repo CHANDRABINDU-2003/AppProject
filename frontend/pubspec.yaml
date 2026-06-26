@@ -1,0 +1,25 @@
+name: agripulse
+description: AgriPulse — smart farming app (farmer · seller · analyst).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2                 # REST calls to the FastAPI backend
+  shared_preferences: ^2.3.2  # persist the JWT token on device
+  image_picker: ^1.1.2        # pick a crop photo for disease detection
+  geolocator: ^11.0.0         # device location for weather/disaster alerts
+  fl_chart: ^0.68.0           # dashboard charts (yield, season mix, forecast)
+  google_fonts: ^6.2.1        # Poppins (headings) + Inter (body) typography
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

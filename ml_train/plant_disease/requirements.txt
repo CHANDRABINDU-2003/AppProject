@@ -1,0 +1,5 @@
+# Plant-disease image classification (EfficientNet-B0 + MobileNetV3)
+torch==2.6.0
+torchvision==0.21.0      # provides EfficientNet-B0 & MobileNetV3 + pretrained weights
+pillow==10.4.0           # image loading / verification
+# NOTE: torch has no Python 3.14 wheels yet. Use a Python 3.10-3.12 venv.

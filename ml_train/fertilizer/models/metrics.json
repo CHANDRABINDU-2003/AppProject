@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.874,
+  "macro_f1": 0.7336,
+  "n_train": 8000,
+  "n_test": 2000,
+  "classes": [
+    "Compost",
+    "DAP",
+    "MOP",
+    "NPK",
+    "SSP",
+    "Urea",
+    "Zinc Sulphate"
+  ]
+}

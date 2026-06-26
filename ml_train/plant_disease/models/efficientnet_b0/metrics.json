@@ -1,0 +1,47 @@
+{
+  "arch": "efficientnet_b0",
+  "best_val_acc": 0.9961,
+  "epochs": 8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.8824,
+      "val_acc": 0.9702
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.955,
+      "val_acc": 0.9799
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.9679,
+      "val_acc": 0.9841
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.9824,
+      "val_acc": 0.989
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9881,
+      "val_acc": 0.9906
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.9917,
+      "val_acc": 0.9922
+    },
+    {
+      "epoch": 7,
+      "train_acc": 0.9954,
+      "val_acc": 0.9961
+    },
+    {
+      "epoch": 8,
+      "train_acc": 0.9969,
+      "val_acc": 0.9961
+    }
+  ]
+}

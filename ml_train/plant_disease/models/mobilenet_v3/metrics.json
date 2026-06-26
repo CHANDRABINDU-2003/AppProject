@@ -1,0 +1,47 @@
+{
+  "arch": "mobilenet_v3",
+  "best_val_acc": 0.9958,
+  "epochs": 8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.8851,
+      "val_acc": 0.8954
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.9537,
+      "val_acc": 0.9751
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.9602,
+      "val_acc": 0.9667
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.9814,
+      "val_acc": 0.99
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9883,
+      "val_acc": 0.9845
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.9925,
+      "val_acc": 0.9906
+    },
+    {
+      "epoch": 7,
+      "train_acc": 0.9959,
+      "val_acc": 0.9948
+    },
+    {
+      "epoch": 8,
+      "train_acc": 0.9976,
+      "val_acc": 0.9958
+    }
+  ]
+}

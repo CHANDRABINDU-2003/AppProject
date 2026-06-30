@@ -1,19 +1,14 @@
-# Render Blueprint — deploys the AgriPulse backend + PostgreSQL.
-# Docs: https://render.com/docs/blueprint-spec
+# Render Blueprint — deploys ONLY the AgriPulse backend (free web service).
+# The database is Neon (free, permanent Postgres) — set DATABASE_URL in the
+# Render dashboard, NOT here, so it stays secret.
 #
 # How to use:
-#   1. Push this file to GitHub (it must live in the repo root).
-#   2. On render.com → New → Blueprint → pick the AppProject repo.
-#   3. Render reads this file and creates the database + web service.
+#   1. Push this file to GitHub (repo root).
+#   2. render.com → New → Blueprint → pick the AppProject repo → Apply.
+#   3. When prompted, paste your Neon connection string as DATABASE_URL.
 #
-# The web service URL it gives you (e.g. https://agripulse-backend.onrender.com)
+# The service URL Render gives you (e.g. https://agripulse-backend.onrender.com)
 # is what goes into frontend/lib/config.dart.
-
-databases:
-  - name: agripulse-db
-    databaseName: agripulse
-    user: agripulse
-    plan: free            # free Postgres (note: expires ~30 days on free tier)
 
 services:
   - type: web
@@ -25,14 +20,15 @@ services:
     # Seed runs every deploy but is idempotent (skips rows that already exist),
     # so the demo accounts (farmer1@agripulse.com, etc.) exist on first boot.
     startCommand: python -m app.seed && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
     envVars:
       # Pinned: psycopg2-binary 2.9.9 / bcrypt 4.0.1 only ship wheels up to 3.11.
       - key: PYTHON_VERSION
         value: "3.11.9"
+      # Neon Postgres connection string — paste it in the Render dashboard.
+      # Format: postgresql://user:pass@ep-xxx.REGION.aws.neon.tech/DB?sslmode=require
       - key: DATABASE_URL
-        fromDatabase:
-          name: agripulse-db
-          property: connectionString
+        sync: false
       - key: SECRET_KEY
         generateValue: true        # Render generates a strong random secret
       - key: ACCESS_TOKEN_EXPIRE_MINUTES

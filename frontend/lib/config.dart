@@ -6,7 +6,8 @@ class AppConfig {
   /// - iOS simulator / web / desktop: use http://localhost:8000
   /// - Real device: use your computer's LAN IP, e.g. http://192.168.0.10:8000
   ///
-  /// PRODUCTION (GitHub Pages web build): the public Render backend.
-  /// ⚠️ If Render shows a different service URL, change this one line to match.
-  static const String apiBaseUrl = "https://agripulse-backend.onrender.com";
+  /// PRODUCTION (GitHub Pages web build): the public backend on Koyeb.
+  /// ⚠️ REPLACE this with the real URL Koyeb gives you after deploy, e.g.
+  ///    https://agripulse-backend-myorg.koyeb.app   (no trailing slash)
+  static const String apiBaseUrl = "https://REPLACE-ME.koyeb.app";
 }

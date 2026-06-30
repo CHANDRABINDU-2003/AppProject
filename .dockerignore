@@ -1,0 +1,13 @@
+# Keep the build context small & fast — only backend/ and database/ are needed.
+.git
+frontend
+ml_train
+docs
+scripts
+*.pdf
+**/.venv
+**/venv
+**/__pycache__
+**/*.pyc
+**/.DS_Store
+backend/.env
